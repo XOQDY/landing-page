@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -30,7 +31,7 @@ button {
     padding: 6px 100px;
 }
 
-.header {
+.hero .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,13 +49,14 @@ button {
 }
 
 .links a,
-.secondary-text {
+.secondary-text,
+.text-information {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.container {
+.hero .container {
     display: flex;
     justify-content: space-between;
     gap: 16px;
@@ -81,4 +83,44 @@ button {
     font-weight: bold;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 180px 120px;
+    margin-bottom: 0px;
+}
+
+.information .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 45px;
+}
+
+.information .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.content-information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.square {
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    width: 160px;
+    height: 160px;
+}
+
+.text-information{
+    color: #828386;
+}
 
