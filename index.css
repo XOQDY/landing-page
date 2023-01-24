@@ -38,7 +38,8 @@ button {
   margin-bottom: 60px;
 }
 
-.header .left {
+.header .left,
+.sign-up-section .main-text {
   font-size: 24px;
   font-weight: bold;
   color: #f9faf8;
@@ -150,4 +151,31 @@ button {
   align-self: flex-end;
   font-size: 20px;
   font-weight: bold;
+}
+
+.sign-up-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 160px;
+}
+
+.sign-up-section .container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    border-radius: 8px;
+}
+
+.sign-up-section .content {
+    gap: 2px;
+}
+
+.secondary-sign-up {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 6px;
+    width: 105px;
+    font-weight: bold;
 }
