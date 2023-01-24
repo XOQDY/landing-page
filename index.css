@@ -1,153 +1,153 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    gap: 16px;
+  list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
 button {
-    background-color: #3882f6;
-    color: #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
 }
 
 .hero {
-    background-color: #1f2937;
-    color: #ffffff;
-    padding: 6px 100px;
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 6px 100px;
 }
 
 .hero .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .header .left {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 .header .right {
-    display: flex;
+  display: flex;
 }
 
 .links a,
 .secondary-text,
 .text-information {
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero .container {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 64px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .sign-up {
-    border: none;
-    border-radius: 5px;
-    padding: 6px;
-    width: 105px;
-    font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  width: 105px;
+  font-weight: bold;
 }
 
 .rectangle {
-    background-color: #828386;
-    width: 500px;
-    height: 225px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #828386;
+  width: 500px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 36px 180px 120px;
-    margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 180px 120px;
+  margin-bottom: 0px;
 }
 
 .information .header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-    margin-bottom: 45px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 45px;
 }
 
 .information .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
 }
 
 .content-information {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
 }
 
 .square {
-    border: 4px solid #3882f6;
-    border-radius: 12px;
-    width: 160px;
-    height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 12px;
+  width: 160px;
+  height: 160px;
 }
 
-.text-information{
-    color: #828386;
+.text-information {
+  color: #828386;
 }
 
 .quote {
-    background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    padding: 120px 200px 80px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 200px 80px;
 }
 
 .text-quote {
-    font-size: 36px;
-    font-weight: lighter;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
 }
 
 .writer-quote {
-    align-self: flex-end;
-    font-size: 20px;
-    font-weight: bold;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
 }
