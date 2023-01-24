@@ -28,7 +28,7 @@ button {
 .hero {
   background-color: #1f2937;
   color: #ffffff;
-  padding: 6px 100px;
+  padding: 6px 140px;
 }
 
 .hero .header {
@@ -68,6 +68,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  justify-content: center;
 }
 
 .main-text {
@@ -118,6 +119,7 @@ button {
 
 .content-information {
   display: flex;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   gap: 8px;
@@ -173,7 +175,7 @@ button {
 }
 
 .secondary-sign-up {
-  border: 2px solid #ffffff;
+  border: 2px solid #f9faf8;
   border-radius: 5px;
   padding: 6px;
   width: 105px;
