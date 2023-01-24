@@ -28,7 +28,7 @@ button {
 .hero {
   background-color: #1f2937;
   color: #ffffff;
-  padding: 6px 140px;
+  padding: 6px 240px;
 }
 
 .hero .header {
@@ -69,6 +69,7 @@ button {
   flex-direction: column;
   gap: 12px;
   justify-content: center;
+  max-width: 600px;
 }
 
 .main-text {
@@ -123,6 +124,7 @@ button {
   flex-direction: column;
   text-align: center;
   gap: 8px;
+  max-width: 200px;
 }
 
 .square {
@@ -140,7 +142,7 @@ button {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 120px 200px 80px;
+  padding: 120px 400px 80px;
 }
 
 .text-quote {
@@ -158,7 +160,7 @@ button {
 .sign-up-section {
   display: flex;
   flex-direction: column;
-  padding: 80px 160px;
+  padding: 80px 320px;
 }
 
 .sign-up-section .container {
