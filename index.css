@@ -132,3 +132,22 @@ button {
 .text-information{
     color: #828386;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 200px 80px;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.writer-quote {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
