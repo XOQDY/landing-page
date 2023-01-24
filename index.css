@@ -179,3 +179,11 @@ button {
   width: 105px;
   font-weight: bold;
 }
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 32px;
+}
